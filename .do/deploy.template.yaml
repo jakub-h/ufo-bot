@@ -1,0 +1,8 @@
+spec:
+  name: ufo-bot
+  services:
+  - environment_slug: python
+    git:
+      branch: main
+      repo_clone_url: https://github.com/jakub-h/ufo-bot.git
+    name: ufo-bot

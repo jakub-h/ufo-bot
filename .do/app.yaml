@@ -1,0 +1,8 @@
+name: ufo-bot
+services:
+- environment_slug: python
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: jakub-h/ufo-bot
+  name: ufo-bot
